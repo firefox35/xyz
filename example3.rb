@@ -1,5 +1,5 @@
 class Person
-def set_name( aName ) 
+     def set_name( aName ) 
 @name = aName
 end
 def get_name
@@ -19,7 +19,8 @@ person1 = Person.new
 person1.set_name( "John Mc" )
 puts person1.get_name
 b1 = Book.new("Ruby", "this is a great Ruby book!!")
-b2 = Book.new("Rails", "A great introduction to Rails!!") puts
+b2 = Book.new("Rails", "A great introduction to Rails!!")
+puts
 b1.to_s
 puts b2.to_s
 # The inspect method lets you look inside an object
