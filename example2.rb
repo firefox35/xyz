@@ -4,3 +4,7 @@ taxdue = itemprice * taxrate
 puts " Tax due on €#{itemprice} is €#{taxdue}, so the overall price will
 be €#{itemprice+taxdue} "
 
+itemprice = 1200
+if (itemprice > 1000) then
+ puts (" This item is expensive!! ")
+end 
